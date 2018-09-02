@@ -89,7 +89,7 @@
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String># start the ssh-agent in the background&#xd;
+         <String># start the ssh-agent in the background&#xd;&#xd;
 eval $(ssh-agent -s)</String>
          <ConnectedNoteIDs>14</ConnectedNoteIDs>
       </Note>
@@ -105,7 +105,7 @@ eval $(ssh-agent -s)</String>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject&#xd;
+         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject&#xd;&#xd;
 </String>
       </Note>
       <Note Width="168.86" FontSize="12" ID="13" Position="1795.2,272.3">
@@ -462,6 +462,22 @@ eval $(ssh-agent -s)</String>
          </Appearance>
          <String>for using without passphrase</String>
          <ConnectedNoteIDs>54</ConnectedNoteIDs>
+      </Note>
+      <Note Width="230.688" FontSize="12" ID="56" Position="975.4,517.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>To unstage the merge conflicts:</String>
+         <ConnectedNoteIDs>57</ConnectedNoteIDs>
+      </Note>
+      <Note Width="124.939" FontSize="12" ID="57" Position="1245.2,517.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git reset HEAD .</String>
+         <ConnectedNoteIDs>56</ConnectedNoteIDs>
       </Note>
    </Notes>
    <BackgroundShapes/>
