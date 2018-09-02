@@ -427,6 +427,13 @@ eval $(ssh-agent -s)</String>
          <String>show “lines” of branches</String>
          <ConnectedNoteIDs>50</ConnectedNoteIDs>
       </Note>
+      <Note Width="112.061" FontSize="12" ID="52" Position="1015.3,1060.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>some changes</String>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
