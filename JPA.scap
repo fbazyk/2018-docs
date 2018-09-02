@@ -118,6 +118,13 @@
          </Appearance>
          <String>JavaEE.jar in classpath</String>
       </Note>
+      <Note Width="125.134" FontSize="12" ID="16" Position="739.1,263.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>Another addition</String>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
