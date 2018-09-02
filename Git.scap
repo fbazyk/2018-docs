@@ -89,7 +89,11 @@
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
+<<<<<<< HEAD
          <String># start the ssh-agent in the background&#xd;&#xd;
+=======
+         <String># start the ssh-agent in the background&#xd;
+>>>>>>> 82926ea264d7d2bd1b7fb69cad34681f7173e13a
 eval $(ssh-agent -s)</String>
          <ConnectedNoteIDs>14</ConnectedNoteIDs>
       </Note>
@@ -105,7 +109,11 @@ eval $(ssh-agent -s)</String>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
+<<<<<<< HEAD
          <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject&#xd;&#xd;
+=======
+         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject&#xd;
+>>>>>>> 82926ea264d7d2bd1b7fb69cad34681f7173e13a
 </String>
       </Note>
       <Note Width="168.86" FontSize="12" ID="13" Position="1795.2,272.3">
@@ -434,6 +442,7 @@ eval $(ssh-agent -s)</String>
          </Appearance>
          <String>some changes</String>
       </Note>
+<<<<<<< HEAD
       <Note Width="543.473" FontSize="12" ID="53" Position="2742.4,235.1">
          <Appearance>
             <Alignment>Left</Alignment>
@@ -462,6 +471,21 @@ eval $(ssh-agent -s)</String>
          </Appearance>
          <String>for using without passphrase</String>
          <ConnectedNoteIDs>54</ConnectedNoteIDs>
+=======
+      <Note Width="210.083" FontSize="12" ID="21" Position="203.9,186.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Merge Problems with SCAP</String>
+      </Note>
+      <Note Width="197.266" FontSize="12" ID="22" Position="203.9,215.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Let’s see where it leads us</String>
+>>>>>>> 82926ea264d7d2bd1b7fb69cad34681f7173e13a
       </Note>
    </Notes>
    <BackgroundShapes/>
