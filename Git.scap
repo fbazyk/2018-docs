@@ -172,6 +172,41 @@ eval $(ssh-agent -s)</String>
          </Appearance>
          <String>git push</String>
       </Note>
+      <Note Width="417.188" FontSize="12" ID="21" Position="1589.1,569.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>origin master is two separate things, and origin/master is one thing. Three things total.</String>
+         <ConnectedNoteIDs>22-24</ConnectedNoteIDs>
+      </Note>
+      <Note Width="177.295" FontSize="12" ID="22" Position="1639.1,655.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>master is a local branch</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="485.938" FontSize="12" ID="23" Position="1848.4,661.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">45,10</FormatRange>
+         </Formatting>
+         <String>origin/master is a remote branch (which is a local copy of the branch named "master" on the remote named "origin")</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="130.798" FontSize="12" ID="24" Position="1485.2,657.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>origin is a remote</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
