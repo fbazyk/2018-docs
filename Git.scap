@@ -125,6 +125,13 @@
          </Appearance>
          <String>Another addition</String>
       </Note>
+      <Note Width="113.489" FontSize="12" ID="17" Position="778.9,333.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>More additions</String>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
