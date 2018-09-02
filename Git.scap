@@ -479,6 +479,21 @@ eval $(ssh-agent -s)</String>
          <String>git reset HEAD .</String>
          <ConnectedNoteIDs>56</ConnectedNoteIDs>
       </Note>
+      <Note Width="312.842" FontSize="12" ID="58" Position="289.6,314.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">172,23</FormatRange>
+         </Formatting>
+         <String>Create a new branch:
+git checkout -b feature_branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+It’s as simple as that!</String>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
