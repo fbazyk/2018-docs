@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <ScappleDocument ID="F85776B1-298A-478E-A58B-5FAB962FF44B" Version="1.1">
    <Notes>
-      <Note Width="223.828" FontSize="12" ID="3" Position="428.1,284.0">
+      <Note Width="223.828" FontSize="12" ID="3" Position="760.9,284.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -9,7 +9,7 @@
          <String>git branch -d the_local_branch</String>
          <ConnectedNoteIDs>6</ConnectedNoteIDs>
       </Note>
-      <Note Width="256.018" FontSize="12" ID="4" Position="475.0,326.2">
+      <Note Width="256.018" FontSize="12" ID="4" Position="807.8,326.2">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -17,7 +17,7 @@
          <String>git push origin :the_remote_branch</String>
          <ConnectedNoteIDs>7</ConnectedNoteIDs>
       </Note>
-      <Note Width="310.547" FontSize="12" ID="5" Position="477.3,372.3">
+      <Note Width="310.547" FontSize="12" ID="5" Position="810.2,372.3">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -25,7 +25,7 @@
          <String>git push origin --delete the_remote_branch</String>
          <ConnectedNoteIDs>7</ConnectedNoteIDs>
       </Note>
-      <Note Width="145.691" FontSize="12" ID="6" Position="243.4,284.0">
+      <Note Width="145.691" FontSize="12" ID="6" Position="576.2,284.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -33,7 +33,7 @@
          <String>Delete local branch</String>
          <ConnectedNoteIDs>3</ConnectedNoteIDs>
       </Note>
-      <Note Width="162.659" FontSize="12" ID="7" Position="253.0,342.6">
+      <Note Width="162.659" FontSize="12" ID="7" Position="585.8,342.6">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -41,7 +41,7 @@
          <String>Delete remote branch</String>
          <ConnectedNoteIDs>4-5</ConnectedNoteIDs>
       </Note>
-      <Note Width="86.9873" FontSize="12" ID="0" Position="453.1,75.4">
+      <Note Width="86.9873" FontSize="12" ID="0" Position="785.9,75.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -49,7 +49,7 @@
          <String>git fetch -p </String>
          <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="1" Position="578.1,68.4">
+      <Note Width="390.625" FontSize="12" ID="1" Position="910.9,68.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -57,7 +57,7 @@
          <String>The git manual says -p, --prune After fetching, remove any remote-tracking branches which no longer exist on the remote.</String>
          <ConnectedNoteIDs>0</ConnectedNoteIDs>
       </Note>
-      <Note Width="206.799" FontSize="12" ID="2" Position="207.3,75.4">
+      <Note Width="206.799" FontSize="12" ID="2" Position="540.1,75.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -65,7 +65,7 @@
          <String>synchronize your branch list</String>
          <ConnectedNoteIDs>0</ConnectedNoteIDs>
       </Note>
-      <Note Width="190.247" FontSize="12" ID="8" Position="1102.3,70.7">
+      <Note Width="190.247" FontSize="12" ID="8" Position="1435.2,70.7">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -73,7 +73,7 @@
          <String>Generating new SSH key</String>
          <ConnectedNoteIDs>9</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="9" Position="1102.3,134.8">
+      <Note Width="390.625" FontSize="12" ID="9" Position="1435.2,134.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -84,7 +84,7 @@
          <String>https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</String>
          <ConnectedNoteIDs>8</ConnectedNoteIDs>
       </Note>
-      <Note Width="286.414" FontSize="12" ID="10" Position="1114.8,219.1">
+      <Note Width="286.414" FontSize="12" ID="10" Position="1447.7,219.1">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -93,14 +93,14 @@
 eval $(ssh-agent -s)</String>
          <ConnectedNoteIDs>14</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="11" Position="1115.6,323.8">
+      <Note Width="390.625" FontSize="12" ID="11" Position="1448.4,323.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>To use ssh connection, please replace https links to github with</String>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="12" Position="1115.6,371.5">
+      <Note Width="390.625" FontSize="12" ID="12" Position="1448.4,371.5">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -108,7 +108,7 @@ eval $(ssh-agent -s)</String>
          <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject
 </String>
       </Note>
-      <Note Width="168.86" FontSize="12" ID="13" Position="1134.4,272.3">
+      <Note Width="168.86" FontSize="12" ID="13" Position="1467.2,272.3">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -118,13 +118,59 @@ eval $(ssh-agent -s)</String>
          </Formatting>
          <String>ssh -T git@github.com</String>
       </Note>
-      <Note Width="160.754" FontSize="12" ID="14" Position="1440.3,219.1">
+      <Note Width="160.754" FontSize="12" ID="14" Position="1773.1,219.1">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>ssh-add ~/.ssh/id_rsa</String>
          <ConnectedNoteIDs>10</ConnectedNoteIDs>
+      </Note>
+      <Note Width="180.188" FontSize="12" ID="15" Position="453.1,528.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>Mostly Used commands</String>
+      </Note>
+      <Note Width="64.6606" FontSize="12" ID="16" Position="453.1,557.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git add .</String>
+         <ConnectedNoteIDs>17</ConnectedNoteIDs>
+      </Note>
+      <Note Width="122.791" FontSize="12" ID="17" Position="291.3,557.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>dot adds all files</String>
+         <ConnectedNoteIDs>16</ConnectedNoteIDs>
+      </Note>
+      <Note Width="184.387" FontSize="12" ID="18" Position="453.1,586.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git commit -m “message”</String>
+         <ConnectedNoteIDs>19</ConnectedNoteIDs>
+      </Note>
+      <Note Width="270.349" FontSize="12" ID="19" Position="143.7,586.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>quotes contain message with spaces</String>
+         <ConnectedNoteIDs>18</ConnectedNoteIDs>
+      </Note>
+      <Note Width="63.7695" FontSize="12" ID="20" Position="453.1,615.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git push</String>
       </Note>
    </Notes>
    <BackgroundShapes/>
