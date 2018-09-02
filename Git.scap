@@ -411,6 +411,22 @@ eval $(ssh-agent -s)</String>
          <String>*.extention</String>
          <ConnectedNoteIDs>47</ConnectedNoteIDs>
       </Note>
+      <Note Width="64.6484" FontSize="12" ID="50" Position="437.0,1039.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>—graph</String>
+         <ConnectedNoteIDs>51</ConnectedNoteIDs>
+      </Note>
+      <Note Width="181.763" FontSize="12" ID="51" Position="540.7,1039.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>show “lines” of branches</String>
+         <ConnectedNoteIDs>50</ConnectedNoteIDs>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
