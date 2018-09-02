@@ -91,6 +91,40 @@
          </Appearance>
          <String># start the ssh-agent in the background
 eval $(ssh-agent -s)</String>
+         <ConnectedNoteIDs>14</ConnectedNoteIDs>
+      </Note>
+      <Note Width="390.625" FontSize="12" ID="11" Position="1115.6,323.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>To use ssh connection, please replace https links to github with</String>
+      </Note>
+      <Note Width="390.625" FontSize="12" ID="12" Position="1115.6,371.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject
+</String>
+      </Note>
+      <Note Width="168.86" FontSize="12" ID="13" Position="1134.4,272.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Link="git@github.com" Underline="Yes">7,14</FormatRange>
+         </Formatting>
+         <String>ssh -T git@github.com</String>
+      </Note>
+      <Note Width="160.754" FontSize="12" ID="14" Position="1440.3,219.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>ssh-add ~/.ssh/id_rsa</String>
+         <ConnectedNoteIDs>10</ConnectedNoteIDs>
       </Note>
    </Notes>
    <BackgroundShapes/>
