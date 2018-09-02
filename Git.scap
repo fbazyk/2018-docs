@@ -132,6 +132,13 @@
          </Appearance>
          <String>More additions</String>
       </Note>
+      <Note Width="177.527" FontSize="12" ID="18" Position="848.4,385.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>Push to Master addition</String>
+      </Note>
    </Notes>
    <BackgroundShapes/>
    <NoteStyles>
