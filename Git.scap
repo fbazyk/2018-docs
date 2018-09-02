@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <ScappleDocument ID="F85776B1-298A-478E-A58B-5FAB962FF44B" Version="1.1">
    <Notes>
-      <Note Width="223.828" FontSize="12" ID="3" Position="907.6,284.0">
+      <Note Width="223.828" FontSize="12" ID="3" Position="1088.9,284.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -9,7 +9,7 @@
          <String>git branch -d the_local_branch</String>
          <ConnectedNoteIDs>6</ConnectedNoteIDs>
       </Note>
-      <Note Width="256.018" FontSize="12" ID="4" Position="954.5,326.2">
+      <Note Width="256.018" FontSize="12" ID="4" Position="1135.8,326.2">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -17,7 +17,7 @@
          <String>git push origin :the_remote_branch</String>
          <ConnectedNoteIDs>7</ConnectedNoteIDs>
       </Note>
-      <Note Width="310.547" FontSize="12" ID="5" Position="956.8,372.3">
+      <Note Width="310.547" FontSize="12" ID="5" Position="1138.1,372.3">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -25,7 +25,7 @@
          <String>git push origin --delete the_remote_branch</String>
          <ConnectedNoteIDs>7</ConnectedNoteIDs>
       </Note>
-      <Note Width="145.691" FontSize="12" ID="6" Position="722.8,284.0">
+      <Note Width="145.691" FontSize="12" ID="6" Position="904.2,284.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -33,7 +33,7 @@
          <String>Delete local branch</String>
          <ConnectedNoteIDs>3</ConnectedNoteIDs>
       </Note>
-      <Note Width="162.659" FontSize="12" ID="7" Position="732.4,342.6">
+      <Note Width="162.659" FontSize="12" ID="7" Position="913.8,342.6">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -41,7 +41,7 @@
          <String>Delete remote branch</String>
          <ConnectedNoteIDs>4-5</ConnectedNoteIDs>
       </Note>
-      <Note Width="86.9873" FontSize="12" ID="0" Position="932.6,75.4">
+      <Note Width="86.9873" FontSize="12" ID="0" Position="1113.9,75.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -49,7 +49,7 @@
          <String>git fetch -p </String>
          <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="1" Position="1057.6,68.4">
+      <Note Width="390.625" FontSize="12" ID="1" Position="1238.9,68.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -57,7 +57,7 @@
          <String>The git manual says -p, --prune After fetching, remove any remote-tracking branches which no longer exist on the remote.</String>
          <ConnectedNoteIDs>0</ConnectedNoteIDs>
       </Note>
-      <Note Width="206.799" FontSize="12" ID="2" Position="686.7,75.4">
+      <Note Width="206.799" FontSize="12" ID="2" Position="868.1,75.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -65,7 +65,7 @@
          <String>synchronize your branch list</String>
          <ConnectedNoteIDs>0</ConnectedNoteIDs>
       </Note>
-      <Note Width="190.247" FontSize="12" ID="8" Position="1581.8,70.7">
+      <Note Width="190.247" FontSize="12" ID="8" Position="1763.1,70.7">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -73,7 +73,7 @@
          <String>Generating new SSH key</String>
          <ConnectedNoteIDs>9</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="9" Position="1581.8,134.8">
+      <Note Width="390.625" FontSize="12" ID="9" Position="1763.1,134.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -84,7 +84,7 @@
          <String>https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</String>
          <ConnectedNoteIDs>8</ConnectedNoteIDs>
       </Note>
-      <Note Width="286.414" FontSize="12" ID="10" Position="1594.3,219.1">
+      <Note Width="286.414" FontSize="12" ID="10" Position="1775.6,219.1">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -93,14 +93,14 @@
 eval $(ssh-agent -s)</String>
          <ConnectedNoteIDs>14</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="11" Position="1595.1,323.8">
+      <Note Width="390.625" FontSize="12" ID="11" Position="1776.4,323.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>To use ssh connection, please replace https links to github with</String>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="12" Position="1595.1,371.5">
+      <Note Width="390.625" FontSize="12" ID="12" Position="1776.4,371.5">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -108,7 +108,7 @@ eval $(ssh-agent -s)</String>
          <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject
 </String>
       </Note>
-      <Note Width="168.86" FontSize="12" ID="13" Position="1613.8,272.3">
+      <Note Width="168.86" FontSize="12" ID="13" Position="1795.2,272.3">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -118,7 +118,7 @@ eval $(ssh-agent -s)</String>
          </Formatting>
          <String>ssh -T git@github.com</String>
       </Note>
-      <Note Width="160.754" FontSize="12" ID="14" Position="1919.8,219.1">
+      <Note Width="160.754" FontSize="12" ID="14" Position="2101.1,219.1">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -126,22 +126,23 @@ eval $(ssh-agent -s)</String>
          <String>ssh-add ~/.ssh/id_rsa</String>
          <ConnectedNoteIDs>10</ConnectedNoteIDs>
       </Note>
-      <Note Width="180.188" FontSize="12" ID="15" Position="599.8,528.5">
+      <Note Width="180.188" FontSize="12" ID="15" Position="321.5,517.9">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>Mostly Used commands</String>
       </Note>
-      <Note Width="64.6606" FontSize="12" ID="16" Position="599.8,557.4">
+      <Note Width="64.6606" FontSize="12" ID="16" Position="343.4,703.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>git add .</String>
-         <ConnectedNoteIDs>17</ConnectedNoteIDs>
+         <ConnectedNoteIDs>17-18, 40</ConnectedNoteIDs>
+         <PointsToNoteIDs>18</PointsToNoteIDs>
       </Note>
-      <Note Width="122.791" FontSize="12" ID="17" Position="437.9,557.4">
+      <Note Width="122.791" FontSize="12" ID="17" Position="174.3,699.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -149,15 +150,16 @@ eval $(ssh-agent -s)</String>
          <String>dot adds all files</String>
          <ConnectedNoteIDs>16</ConnectedNoteIDs>
       </Note>
-      <Note Width="184.387" FontSize="12" ID="18" Position="599.8,586.3">
+      <Note Width="184.387" FontSize="12" ID="18" Position="341.0,783.2">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>git commit -m “message”</String>
-         <ConnectedNoteIDs>19</ConnectedNoteIDs>
+         <ConnectedNoteIDs>16, 19-20</ConnectedNoteIDs>
+         <PointsToNoteIDs>20</PointsToNoteIDs>
       </Note>
-      <Note Width="270.349" FontSize="12" ID="19" Position="290.4,586.3">
+      <Note Width="270.349" FontSize="12" ID="19" Position="31.6,783.2">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -165,14 +167,16 @@ eval $(ssh-agent -s)</String>
          <String>quotes contain message with spaces</String>
          <ConnectedNoteIDs>18</ConnectedNoteIDs>
       </Note>
-      <Note Width="63.7695" FontSize="12" ID="20" Position="599.8,615.2">
+      <Note Width="63.7695" FontSize="12" ID="20" Position="354.0,864.2">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>git push</String>
+         <ConnectedNoteIDs>18, 34</ConnectedNoteIDs>
+         <PointsToNoteIDs>34</PointsToNoteIDs>
       </Note>
-      <Note Width="417.188" FontSize="12" ID="21" Position="1735.7,569.1">
+      <Note Width="417.188" FontSize="12" ID="21" Position="1917.0,569.1">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -180,7 +184,7 @@ eval $(ssh-agent -s)</String>
          <String>origin master is two separate things, and origin/master is one thing. Three things total.</String>
          <ConnectedNoteIDs>22-24</ConnectedNoteIDs>
       </Note>
-      <Note Width="177.295" FontSize="12" ID="22" Position="1785.7,655.9">
+      <Note Width="177.295" FontSize="12" ID="22" Position="1967.0,655.9">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -188,7 +192,7 @@ eval $(ssh-agent -s)</String>
          <String>master is a local branch</String>
          <ConnectedNoteIDs>21</ConnectedNoteIDs>
       </Note>
-      <Note Width="485.938" FontSize="12" ID="23" Position="1995.1,661.3">
+      <Note Width="485.938" FontSize="12" ID="23" Position="2176.4,661.3">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -199,7 +203,7 @@ eval $(ssh-agent -s)</String>
          <String>origin/master is a remote branch (which is a local copy of the branch named "master" on the remote named "origin")</String>
          <ConnectedNoteIDs>21</ConnectedNoteIDs>
       </Note>
-      <Note Width="130.798" FontSize="12" ID="24" Position="1631.8,657.4">
+      <Note Width="130.798" FontSize="12" ID="24" Position="1813.1,657.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -207,14 +211,14 @@ eval $(ssh-agent -s)</String>
          <String>origin is a remote</String>
          <ConnectedNoteIDs>21</ConnectedNoteIDs>
       </Note>
-      <Note Width="174.109" FontSize="12" ID="25" Position="183.4,41.0">
+      <Note Width="174.109" FontSize="12" ID="25" Position="364.7,41.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>Git Create New Project</String>
       </Note>
-      <Note Width="156.909" FontSize="12" ID="26" Position="183.4,69.9">
+      <Note Width="156.909" FontSize="12" ID="26" Position="364.7,69.9">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -222,7 +226,7 @@ eval $(ssh-agent -s)</String>
          <String>mkdir Project_Folder</String>
          <ConnectedNoteIDs>29</ConnectedNoteIDs>
       </Note>
-      <Note Width="134.583" FontSize="12" ID="27" Position="183.4,98.8">
+      <Note Width="134.583" FontSize="12" ID="27" Position="364.7,98.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -230,7 +234,7 @@ eval $(ssh-agent -s)</String>
          <String>cd Project_Folder</String>
          <ConnectedNoteIDs>30</ConnectedNoteIDs>
       </Note>
-      <Note Width="49.4507" FontSize="12" ID="28" Position="183.4,127.7">
+      <Note Width="49.4507" FontSize="12" ID="28" Position="364.7,127.7">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -238,7 +242,7 @@ eval $(ssh-agent -s)</String>
          <String>git init</String>
          <ConnectedNoteIDs>31-32</ConnectedNoteIDs>
       </Note>
-      <Note Width="91.4673" FontSize="12" ID="29" Position="379.3,69.9">
+      <Note Width="91.4673" FontSize="12" ID="29" Position="560.7,69.9">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -246,7 +250,7 @@ eval $(ssh-agent -s)</String>
          <String>make folder</String>
          <ConnectedNoteIDs>26</ConnectedNoteIDs>
       </Note>
-      <Note Width="87.9028" FontSize="12" ID="30" Position="357.0,98.8">
+      <Note Width="87.9028" FontSize="12" ID="30" Position="538.3,98.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -254,7 +258,7 @@ eval $(ssh-agent -s)</String>
          <String>go to folder</String>
          <ConnectedNoteIDs>27</ConnectedNoteIDs>
       </Note>
-      <Note Width="139.746" FontSize="12" ID="31" Position="23.4,127.0">
+      <Note Width="139.746" FontSize="12" ID="31" Position="204.8,127.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -262,7 +266,7 @@ eval $(ssh-agent -s)</String>
          <String>initialize repository</String>
          <ConnectedNoteIDs>28</ConnectedNoteIDs>
       </Note>
-      <Note Width="55.7007" FontSize="12" ID="32" Position="239.8,164.5">
+      <Note Width="55.7007" FontSize="12" ID="32" Position="421.2,164.5">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
@@ -270,13 +274,142 @@ eval $(ssh-agent -s)</String>
          <String>—bare</String>
          <ConnectedNoteIDs>28, 33</ConnectedNoteIDs>
       </Note>
-      <Note Width="251.147" FontSize="12" ID="33" Position="312.0,149.6">
+      <Note Width="251.147" FontSize="12" ID="33" Position="493.3,149.6">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>Option to make a “sharing” project</String>
          <ConnectedNoteIDs>32</ConnectedNoteIDs>
+      </Note>
+      <Note Width="50.354" FontSize="12" ID="34" Position="347.6,981.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git log</String>
+         <ConnectedNoteIDs>20, 35-36</ConnectedNoteIDs>
+      </Note>
+      <Note Width="147.449" FontSize="12" ID="35" Position="139.6,981.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>Shows the commits</String>
+         <ConnectedNoteIDs>34</ConnectedNoteIDs>
+      </Note>
+      <Note Width="75.4028" FontSize="12" ID="36" Position="437.0,981.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>—oneline</String>
+         <ConnectedNoteIDs>34, 38</ConnectedNoteIDs>
+      </Note>
+      <Note Width="39.6118" FontSize="12" ID="37" Position="437.0,1010.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>—all</String>
+         <ConnectedNoteIDs>39</ConnectedNoteIDs>
+      </Note>
+      <Note Width="264.026" FontSize="12" ID="38" Position="551.5,981.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>only the short commit ids are shown</String>
+         <ConnectedNoteIDs>36</ConnectedNoteIDs>
+      </Note>
+      <Note Width="193.408" FontSize="12" ID="39" Position="515.7,1010.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>other branches are shown</String>
+         <ConnectedNoteIDs>37</ConnectedNoteIDs>
+      </Note>
+      <Note Width="71.8018" FontSize="12" ID="40" Position="346.2,607.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git status</String>
+         <ConnectedNoteIDs>16</ConnectedNoteIDs>
+         <PointsToNoteIDs>16</PointsToNoteIDs>
+      </Note>
+      <Note Width="80.7251" FontSize="12" ID="41" Position="710.5,785.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git commit</String>
+         <ConnectedNoteIDs>42-43</ConnectedNoteIDs>
+      </Note>
+      <Note Width="106.616" FontSize="12" ID="42" Position="963.9,786.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>-m “message”</String>
+         <ConnectedNoteIDs>41, 45</ConnectedNoteIDs>
+      </Note>
+      <Note Width="39.6118" FontSize="12" ID="43" Position="897.2,881.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>—all</String>
+         <ConnectedNoteIDs>41, 44</ConnectedNoteIDs>
+      </Note>
+      <Note Width="198.84" FontSize="12" ID="44" Position="975.9,881.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>adds all unstaged changes</String>
+         <ConnectedNoteIDs>43</ConnectedNoteIDs>
+      </Note>
+      <Note Width="158.545" FontSize="12" ID="45" Position="1109.6,786.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>—message —amend</String>
+         <ConnectedNoteIDs>42, 46</ConnectedNoteIDs>
+      </Note>
+      <Note Width="230.103" FontSize="12" ID="46" Position="1161.1,823.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>changes the previous message</String>
+         <ConnectedNoteIDs>45</ConnectedNoteIDs>
+      </Note>
+      <Note Width="55.7251" FontSize="12" ID="47" Position="626.6,690.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>git add</String>
+         <ConnectedNoteIDs>48-49</ConnectedNoteIDs>
+      </Note>
+      <Note Width="39.6118" FontSize="12" ID="48" Position="721.4,690.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>—all</String>
+         <ConnectedNoteIDs>47</ConnectedNoteIDs>
+      </Note>
+      <Note Width="83.4473" FontSize="12" ID="49" Position="723.7,726.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>*.extention</String>
+         <ConnectedNoteIDs>47</ConnectedNoteIDs>
       </Note>
    </Notes>
    <BackgroundShapes/>
