@@ -1,143 +1,96 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <ScappleDocument ID="F85776B1-298A-478E-A58B-5FAB962FF44B" Version="1.1">
    <Notes>
-      <Note Width="127.112" FontSize="12" ID="0" Position="107.0,80.1">
+      <Note Width="223.828" FontSize="12" ID="3" Position="428.1,284.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>Connect to a DB</String>
+         <String>git branch -d the_local_branch</String>
+         <ConnectedNoteIDs>6</ConnectedNoteIDs>
       </Note>
-      <Note Width="80.9082" FontSize="12" ID="1" Position="107.0,109.0">
+      <Note Width="256.018" FontSize="12" ID="4" Position="475.0,326.2">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>No Driver!</String>
-         <ConnectedNoteIDs>2</ConnectedNoteIDs>
+         <String>git push origin :the_remote_branch</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
       </Note>
-      <Note Width="259.766" FontSize="12" ID="2" Position="227.0,109.0">
+      <Note Width="310.547" FontSize="12" ID="5" Position="477.3,372.3">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>Well, persistence.xml in META-INF</String>
-         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+         <String>git push origin --delete the_remote_branch</String>
+         <ConnectedNoteIDs>7</ConnectedNoteIDs>
       </Note>
-      <Note Width="365.1" FontSize="12" ID="3" Position="115.6,174.6">
+      <Note Width="145.691" FontSize="12" ID="6" Position="243.4,284.0">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>So, JPA uses EntityManager created by a Factory</String>
+         <String>Delete local branch</String>
+         <ConnectedNoteIDs>3</ConnectedNoteIDs>
       </Note>
-      <Note Width="320.544" FontSize="12" ID="4" Position="127.3,226.2">
+      <Note Width="162.659" FontSize="12" ID="7" Position="253.0,342.6">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>Both are created from the class Persistence</String>
+         <String>Delete remote branch</String>
+         <ConnectedNoteIDs>4-5</ConnectedNoteIDs>
       </Note>
-      <Note Width="330.066" FontSize="12" ID="5" Position="132.0,280.1">
+      <Note Width="86.9873" FontSize="12" ID="0" Position="453.1,75.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>Give factory the name of Persistence Module</String>
+         <String>git fetch -p </String>
+         <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
       </Note>
-      <Note Width="201.318" FontSize="12" ID="6" Position="139.8,344.1">
+      <Note Width="390.625" FontSize="12" ID="1" Position="578.1,68.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>Methods of EntityManager:</String>
+         <String>The git manual says -p, --prune After fetching, remove any remote-tracking branches which no longer exist on the remote.</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
       </Note>
-      <Note Width="112.891" FontSize="12" ID="7" Position="139.8,373.0">
+      <Note Width="206.799" FontSize="12" ID="2" Position="207.3,75.4">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>persist(object);</String>
+         <String>synchronize your branch list</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
       </Note>
-      <Note Width="197.852" FontSize="12" ID="8" Position="139.8,402.0">
+      <Note Width="190.247" FontSize="12" ID="8" Position="1102.3,70.7">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>find(object.class, identifier)</String>
+         <String>Generating new SSH key</String>
+         <ConnectedNoteIDs>9</ConnectedNoteIDs>
       </Note>
-      <Note Width="54.4678" FontSize="12" ID="9" Position="703.1,92.6">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>Object</String>
-      </Note>
-      <Note Width="64.5386" FontSize="12" ID="10" Position="703.1,121.5">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>@Entity</String>
-      </Note>
-      <Note Width="37.7197" FontSize="12" ID="11" Position="703.1,150.4">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>@Id</String>
-      </Note>
-      <Note Width="140.857" FontSize="12" ID="12" Position="703.1,179.3">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>@GeneratedValue</String>
-      </Note>
-      <Note Width="365.93" FontSize="12" ID="13" Position="1346.1,73.0">
+      <Note Width="390.625" FontSize="12" ID="9" Position="1102.3,134.8">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <Formatting>
-            <FormatRange Link="https://dzone.com/articles/persisting-entity-classes" Underline="Yes">0,52</FormatRange>
+            <FormatRange Link="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" Underline="Yes">0,89</FormatRange>
          </Formatting>
-         <String>https://dzone.com/articles/persisting-entity-classes</String>
+         <String>https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</String>
+         <ConnectedNoteIDs>8</ConnectedNoteIDs>
       </Note>
-      <Note Width="390.625" FontSize="12" ID="14" Position="1361.7,129.3">
+      <Note Width="286.414" FontSize="12" ID="10" Position="1114.8,219.1">
          <Appearance>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>All the required class files are present in the JavaEE.jar file which should be added to the classpath. Along with the JavaEE.jar file, we need to add the Persistence Provider jar file as well to the classpath.</String>
-      </Note>
-      <Note Width="176.282" FontSize="12" ID="15" Position="1396.1,273.8">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>JavaEE.jar in classpath</String>
-      </Note>
-      <Note Width="125.134" FontSize="12" ID="16" Position="739.1,263.7">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>Another addition</String>
-      </Note>
-      <Note Width="113.489" FontSize="12" ID="17" Position="778.9,333.2">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>More additions</String>
-      </Note>
-      <Note Width="177.527" FontSize="12" ID="18" Position="848.4,385.5">
-         <Appearance>
-            <Alignment>Left</Alignment>
-            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
-         </Appearance>
-         <String>Push to Master addition</String>
+         <String># start the ssh-agent in the background
+eval $(ssh-agent -s)</String>
       </Note>
    </Notes>
    <BackgroundShapes/>
