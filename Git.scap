@@ -89,7 +89,7 @@
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String># start the ssh-agent in the background
+         <String># start the ssh-agent in the background&#xd;
 eval $(ssh-agent -s)</String>
          <ConnectedNoteIDs>14</ConnectedNoteIDs>
       </Note>
@@ -105,7 +105,7 @@ eval $(ssh-agent -s)</String>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject
+         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject&#xd;
 </String>
       </Note>
       <Note Width="168.86" FontSize="12" ID="13" Position="1467.2,272.3">
@@ -171,6 +171,20 @@ eval $(ssh-agent -s)</String>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>git push</String>
+      </Note>
+      <Note Width="210.083" FontSize="12" ID="21" Position="203.9,186.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Merge Problems with SCAP</String>
+      </Note>
+      <Note Width="197.266" FontSize="12" ID="22" Position="203.9,215.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Let’s see where it leads us</String>
       </Note>
    </Notes>
    <BackgroundShapes/>
