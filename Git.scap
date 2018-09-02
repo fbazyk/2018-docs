@@ -89,7 +89,7 @@
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String># start the ssh-agent in the background
+         <String># start the ssh-agent in the background&#xd;
 eval $(ssh-agent -s)</String>
          <ConnectedNoteIDs>14</ConnectedNoteIDs>
       </Note>
@@ -105,7 +105,7 @@ eval $(ssh-agent -s)</String>
             <Alignment>Left</Alignment>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
-         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject
+         <String>git remote set-url Local_Project git@github.com:Github_Username/GithubProject&#xd;
 </String>
       </Note>
       <Note Width="168.86" FontSize="12" ID="13" Position="1795.2,272.3">
@@ -433,6 +433,35 @@ eval $(ssh-agent -s)</String>
             <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
          </Appearance>
          <String>some changes</String>
+      </Note>
+      <Note Width="543.473" FontSize="12" ID="53" Position="2742.4,235.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Link="https://stackoverflow.com/questions/6270193/multiple-working-directories-with-git/30185564#30185564" Underline="Yes">27,99</FormatRange>
+         </Formatting>
+         <String>Git Multiple Directories   https://stackoverflow.com/questions/6270193/multiple-working-directories-with-git/30185564#30185564</String>
+      </Note>
+      <Note Width="390.625" FontSize="12" ID="54" Position="2011.1,471.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Link="https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase?noredirect=1&amp;lq=1" Underline="Yes">0,108</FormatRange>
+         </Formatting>
+         <String>https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase?noredirect=1&amp;lq=1</String>
+         <ConnectedNoteIDs>55</ConnectedNoteIDs>
+      </Note>
+      <Note Width="212.195" FontSize="12" ID="55" Position="1746.0,471.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded">0.501961 0.501961 0.501961</Border>
+         </Appearance>
+         <String>for using without passphrase</String>
+         <ConnectedNoteIDs>54</ConnectedNoteIDs>
       </Note>
    </Notes>
    <BackgroundShapes/>
